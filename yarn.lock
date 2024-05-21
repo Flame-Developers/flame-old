@@ -1521,6 +1521,11 @@ path-type@^3.0.0:
   dependencies:
     pify "^3.0.0"
 
+petitio@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/petitio/-/petitio-1.3.2.tgz#01590497972a2dbfd3bf4e49d1efa4f3b1fdc693"
+  integrity sha512-hbbT+rOvovz39ZneGW+C8B4YsKH20KLXYVDT/IzSUxaY8H7al/TO+vFCm+H5cnYe62gIqF9ak5p8OJktV/I0Ig==
+
 pify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
@@ -1794,14 +1799,14 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shoukaku@1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/shoukaku/-/shoukaku-1.6.5.tgz#415dde8dc1eb5c2409e08cd58d185de7f3e445d8"
-  integrity sha512-FNe2XJc8LNfExpiy8u7paL5Q14y8cnYpd8yXWsabDbnVGupNeGBo6X8W4eFryvrUoZeNXFHL/48FWO2GCEmNUQ==
+shoukaku@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/shoukaku/-/shoukaku-2.0.4.tgz#d2bb720d266603b9aa3877872e91fb880a93fadd"
+  integrity sha512-aZoCol6Cows1ZMqj1Ngaz8DPzkZ0FiROHF3iEoN9WAZOaEcymNvay7y5gPwrAF1UlbDxuWx2NkH7i8K2c1mWfw==
   dependencies:
     abort-controller "^3.0.0"
-    node-fetch "^2.6.1"
-    ws "^8.0.0"
+    petitio "^1.3.2"
+    ws "^8.2.0"
 
 side-channel@^1.0.4:
   version "1.0.4"
@@ -2152,10 +2157,10 @@ ws@^7.4.4:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.3.tgz#160835b63c7d97bfab418fc1b8a9fced2ac01a74"
   integrity sha512-kQ/dHIzuLrS6Je9+uv81ueZomEwH0qVYstcAQ4/Z93K8zeko9gtAbttJWzoC5ukqXY1PpoouV3+VSOqEAFt5wg==
 
-ws@^8.0.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.1.0.tgz#75e5ec608f66d3d3934ec6dbc4ebc8a34a68638c"
-  integrity sha512-0UWlCD2s3RSclw8FN+D0zDTUyMO+1kHwJQQJzkgUh16S8d3NYON0AKCEQPffE0ez4JyRFu76QDA9KR5bOG/7jw==
+ws@^8.2.0:
+  version "8.2.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.2.2.tgz#ca684330c6dd6076a737250ed81ac1606cb0a63e"
+  integrity sha512-Q6B6H2oc8QY3llc3cB8kVmQ6pnJWVQbP7Q5algTcIxx7YEpc0oU4NBVHlztA7Ekzfhw2r0rPducMUiCGWKQRzw==
 
 yallist@^4.0.0:
   version "4.0.0"
